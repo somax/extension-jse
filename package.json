@@ -1,5 +1,5 @@
 {
-  "name": "require-extension",
+  "name": "extension-jse",
   "version": "0.1.0",
   "description": "测试js代码加密",
   "main": "index.js",
