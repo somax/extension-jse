@@ -1,0 +1,14 @@
+{
+  "name": "require-extension",
+  "version": "0.1.0",
+  "description": "测试js代码加密",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "encrypt": "node lib/encrypt-jse src/code.js jse/",
+    "start": "node ."
+  },
+  "author": "Ma Xiaojun<somaxj@163.com>",
+  "license": "ISC"
+}
