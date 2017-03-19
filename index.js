@@ -1,12 +1,3 @@
-
-require('./lib/extensions-jse');
-
-var code = require("./jse/code");
-
-code.say('你好！')
-
-
-console.log('>>',code)
-console.log('>>',code.say)
-console.log('>>',test)
-
+let jse = require('./lib/jse');
+jse.enableExtension = require('./lib/extensions-jse').enable;
+module.exports = jse;

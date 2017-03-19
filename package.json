@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "description": "测试js代码加密",
   "main": "index.js",
-  "dependencies": {},
+  "bin": {
+    "jse": "bin/jse-cli.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
   "devDependencies": {},
   "scripts": {
-    "encrypt": "node lib/encrypt-jse src/code.js jse/",
-    "start": "node ."
+    "test-cli": "bin/jse-cli.js test/src/code.js test/jse/",
+    "test": "node test/jse.spec.js"
   },
   "author": "Ma Xiaojun<somaxj@163.com>",
   "license": "ISC"
