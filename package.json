@@ -1,6 +1,6 @@
 {
   "name": "extension-jse",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "JavaScript Encrypt Extensions",
   "main": "index.js",
   "bin": {
@@ -14,6 +14,17 @@
     "test-cli": "bin/jse-cli.js test/src/code.js test/jse/",
     "test": "node test/jse.spec.js"
   },
-  "author": "Ma Xiaojun<somaxj@163.com>",
-  "license": "ISC"
+  "author": "Ma Xiaojun <somaxj@163.com>",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somax/extension-jse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somax/extension-jse/issues"
+  },
+  "homepage": "https://github.com/somax/extension-jse#readme"
 }
