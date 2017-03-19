@@ -1,7 +1,7 @@
 {
   "name": "extension-jse",
   "version": "0.1.0",
-  "description": "测试js代码加密",
+  "description": "JavaScript Encrypt Extensions",
   "main": "index.js",
   "bin": {
     "jse": "bin/jse-cli.js"
