@@ -22,7 +22,7 @@ $ jse <src/code.js> [output/]
 ### in code
 Pack your code
 ```js
-const jse = require('jse');
+const jse = require('extension-jse');
 
 // in memory
 let originCode = 'your-code';
@@ -37,10 +37,8 @@ jse.writeToFile(__dirname + '/jse/code.jse', jsePackage);
 
 Use jse
 ```js
-const jse = require('jse');
-
 // enable 'require' to support 'jse' extension
-jse.enableExtension();
+require('extension-jse').enableExtension();
 
 // use .jse like regular modules, the '.jse' is not necessary.
 var code = require("./jse/code[.jse]");
